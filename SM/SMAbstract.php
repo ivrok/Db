@@ -10,7 +10,7 @@ namespace Db\SM;
 
 use Db\SM;
 
-abstract class SMabstract implements SMInterface{ 
+abstract class SMabstract implements SMInterface{
     protected $QUERY = null;
     protected $REQ_FIELDS = array();
     protected function transformTextValue($parValue)
