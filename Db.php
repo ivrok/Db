@@ -37,7 +37,6 @@ class Db{
         $this->lastQuery = $query->getResult();
         $queryObj = $this->conn->query($query->getResult(), \PDO::FETCH_ASSOC);
         if (!$queryObj) return false;
-        if (!$queryObj->execute()) return false;
         return $queryObj->fetchAll();
     }
     public function getError()
@@ -47,6 +46,10 @@ class Db{
     public function getLastQuery()
     {
         return $this->lastQuery;
+    }
+    public function getLastInsertId()
+    {
+        return $this->conn->lastInsertId();
     }
     public function closeConnection()
     {

@@ -20,6 +20,6 @@ class SMDelete extends SMWHEREandFROMabstract{
     {
         $this->QUERY = 'DELETE FROM ' . $this->FROM;
         $this->QUERY .= PHP_EOL . 'WHERE ' . implode(PHP_EOL . 'AND ', $this->WHERE);
-        return parent::create();
+        return parent::getResult();
     }
 }

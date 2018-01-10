@@ -35,6 +35,6 @@ class SMUpdate extends SMWHEREabstract{
         $this->QUERY = 'UPDATE ' . $this->TABLE;
         $this->QUERY .= PHP_EOL . 'SET ' . (implode(', ', array_map(function($item){ return '`' . $item['key'] . '` = ' . (is_numeric($item['val']) ? $item['val'] : '"' . $item['val'] . '"'); }, $this->KEYVALS)));
         if ($this->WHERE) $this->QUERY .= PHP_EOL . 'WHERE ' . implode(PHP_EOL . 'AND ', $this->WHERE);
-        return parent::create();
+        return parent::getResult();
     }
 }
