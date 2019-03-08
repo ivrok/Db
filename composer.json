@@ -1,5 +1,5 @@
 {
-    "name": "ivrok/Db",
+    "name": "ivrok/db",
     "type": "library",
     "description": "SQL lib",
     "keywords": ["sql","mysql","database","db"],
