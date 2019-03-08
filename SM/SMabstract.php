@@ -30,7 +30,7 @@ abstract class SMabstract implements SMInterface{
                 case 'notempty' :
                 default:
                     if (!isset($this->{$rfield['name']}) || empty($this->{$rfield['name']}))
-                        throw new Exception($rfield['name'] . ' is empty');
+                        throw new \Exception($rfield['name'] . ' is empty');
             }
         }
 

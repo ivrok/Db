@@ -10,7 +10,7 @@ namespace Db\SM;
 
 use Db\SM;
 
-abstract class SMWHEREabstract extends SMabstract
+abstract class SMWhereAbstract extends SMabstract
 {
     protected $WHERE = array();
 

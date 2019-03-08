@@ -10,7 +10,7 @@ namespace Db\SM;
 
 use Db\SM;
 
-class SMUpdate extends SMWHEREabstract{
+class SMUpdate extends SMWhereAbstract{
     protected $KEYVALS = array();
     protected $TABLE = null;
 

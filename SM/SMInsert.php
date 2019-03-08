@@ -31,7 +31,7 @@ class SMInsert extends SMabstract implements \Db\SM\SMInterface{
     public function getResult()
     {
         $keys = array_map(function($item){ return '`' . $item['key'] . '`'; }, $this->KEYVALS);
-        $vals = array_map(function($item){ return is_numeric($item['val']) ? $item['val'] : '"' . $item['val'] . '"'; }, $this->KEYVALS);
+        $vals = array_map(function($item){ return is_numeric($item['val']) ? $item['val'] : "'" . $item['val'] . "'"; }, $this->KEYVALS);
         $this->QUERY = 'INSERT INTO ' . $this->INTO . '(' . implode(", ", $keys) . ') VALUES(' . implode(', ', $vals) . ')';
         return parent::getResult();
     }

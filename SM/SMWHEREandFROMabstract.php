@@ -10,7 +10,7 @@ namespace Db\SM;
 
 use Db\SM;
 
-abstract class SMWHEREandFROMabstract extends SMWHEREabstract{
+abstract class SMWHEREandFROMabstract extends SMWhereAbstract{
     protected $FROM = null;
     public function from($tab, $as = false)
     {

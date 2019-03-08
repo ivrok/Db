@@ -1,12 +1,8 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Ivan
- * Date: 05.12.2017
- * Time: 9:40
- */
-
 namespace Db;
+
+use Db\SM\SMInterface;
+use Db\SM\SQLMaker;
 
 class Db{
     private static $inst = null;
@@ -28,16 +24,20 @@ class Db{
     }
     public function query()
     {
-        $this->query = \Db\SM\SQLMaker::instance();
+        $this->query = SQLMaker::instance();
         return $this->query;
     }
-    public function execute(\Db\SM\SMInterface $query = null)
+    public function execute(SMInterface $query = null)
     {
         $query = $query ? $query : $this->query;
         $this->lastQuery = $query->getResult();
         $queryObj = $this->conn->query($query->getResult(), \PDO::FETCH_ASSOC);
         if (!$queryObj) return false;
         return $queryObj->fetchAll();
+    }
+    public function getErrorCode()
+    {
+        return $this->conn->errorCode();
     }
     public function getError()
     {
