@@ -1,5 +1,5 @@
 {
-    "name": "ivrok/db",
+    "name": "ivrok/sqlconst",
     "type": "library",
     "description": "SQL lib",
     "keywords": ["sql","mysql","database","db"],
@@ -18,7 +18,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Db": "."
+            "sqlconst": "."
         }
     }
 }
