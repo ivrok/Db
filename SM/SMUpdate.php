@@ -6,9 +6,9 @@
  * Time: 21:32
  */
 
-namespace Db\SM;
+namespace SqlConst\SM;
 
-use Db\SM;
+use SqlConst\SM;
 
 class SMUpdate extends SMWhereAbstract{
     protected $KEYVALS = array();

@@ -6,9 +6,9 @@
  * Time: 20:41
  */
 
-namespace Db\SM\Database;
+namespace SqlConst\SM\Database;
 
-use Db\SM;
+use SqlConst\SM;
 
 class Drop extends CommonAbstact implements \Db\SM\SMInterface
 {

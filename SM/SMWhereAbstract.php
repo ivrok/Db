@@ -6,9 +6,9 @@
  * Time: 21:34
  */
 
-namespace Db\SM;
+namespace SqlConst\SM;
 
-use Db\SM;
+use SqlConst\SM;
 
 abstract class SMWhereAbstract extends SMabstract
 {

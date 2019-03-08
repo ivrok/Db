@@ -1,8 +1,8 @@
 <?php
 namespace Db;
 
-use Db\SM\SMInterface;
-use Db\SM\SQLMaker;
+use SqlConst\SM\SMInterface;
+use SqlConst\SM\SQLMaker;
 
 class Db{
     private static $inst = null;

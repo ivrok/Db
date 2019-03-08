@@ -6,9 +6,9 @@
  * Time: 20:32
  */
 
-namespace Db\SM\Database;
+namespace SqlConst\SM\Database;
 
-use Db\SM;
+use SqlConst\SM;
 
 class Create extends CommonAbstact implements \Db\SM\SMInterface
 {

@@ -6,7 +6,7 @@
  * Time: 0:47
  */
 
-namespace Db\SM;
+namespace SqlConst\SM;
 
 
 

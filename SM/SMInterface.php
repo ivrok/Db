@@ -6,9 +6,9 @@
  * Time: 0:50
  */
 
-namespace Db\SM;
+namespace SqlConst\SM;
 
-use Db\SM;
+use SqlConst\SM;
 
 interface SMInterface
 {

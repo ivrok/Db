@@ -6,7 +6,7 @@
  * Time: 20:31
  */
 
-namespace Db\SM;
+namespace SqlConst\SM;
 
 class SMDatabase implements SMInterface {
     protected $obj = null;

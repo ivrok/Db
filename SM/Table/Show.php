@@ -6,7 +6,7 @@
  * Time: 11:03
  */
 
-namespace Db\SM\Table;
+namespace SqlConst\SM\Table;
 
 
 class Show implements \Db\SM\SMInterface {

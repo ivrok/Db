@@ -6,7 +6,7 @@
  * Time: 11:07
  */
 
-namespace Db\SM\Table;
+namespace SqlConst\SM\Table;
 
 
 class Truncate implements \Db\SM\SMInterface

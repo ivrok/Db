@@ -6,9 +6,9 @@
  * Time: 0:59
  */
 
-namespace Db\SM;
+namespace SqlConst\SM;
 
-use Db\SM;
+use SqlConst\SM;
 
 abstract class SMWHEREandFROMabstract extends SMWhereAbstract{
     protected $FROM = null;

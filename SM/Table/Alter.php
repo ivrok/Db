@@ -6,7 +6,7 @@
  * Time: 11:09
  */
 
-namespace Db\SM\Table;
+namespace SqlConst\SM\Table;
 
 
 class Alter implements \Db\SM\SMInterface

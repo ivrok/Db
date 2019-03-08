@@ -6,9 +6,9 @@
  * Time: 21:33
  */
 
-namespace Db\SM;
+namespace SqlConst\SM;
 
-use Db\SM;
+use SqlConst\SM;
 
 class SMSelect extends SMWHEREandFROMabstract{
     protected $SELECT = array();

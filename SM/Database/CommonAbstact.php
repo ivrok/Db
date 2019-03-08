@@ -6,9 +6,9 @@
  * Time: 11:39
  */
 
-namespace Db\SM\Database;
+namespace SqlConst\SM\Database;
 
-use Db\SM;
+use SqlConst\SM;
 
 class CommonAbstact
 {

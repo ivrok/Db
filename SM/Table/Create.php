@@ -6,7 +6,7 @@
  * Time: 1:36
  */
 
-namespace Db\SM\Table;
+namespace SqlConst\SM\Table;
 
 
 class Create implements \Db\SM\SMInterface

@@ -6,9 +6,9 @@
  * Time: 1:39
  */
 
-namespace Db\SM\Table;
+namespace SqlConst\SM\Table;
 
-use Db\SM;
+use SqlConst\SM;
 
 class Column extends CommonAbstact implements \Db\SM\SMInterface
 {
