@@ -1,11 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Ivan
- * Date: 05.12.2017
- * Time: 21:34
- */
-
 namespace SqlConst\SM;
 
 use SqlConst\SM;
