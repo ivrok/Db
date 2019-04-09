@@ -1,5 +1,5 @@
 <?php
-namespace Db;
+namespace SqlConst;
 
 use SqlConst\SM\SMInterface;
 use SqlConst\SM\SQLMaker;

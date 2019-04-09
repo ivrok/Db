@@ -1,16 +1,9 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Ivan
- * Date: 05.12.2017
- * Time: 21:34
- */
+namespace SqlConst\SM;
 
-namespace Db\SM;
+use SqlConst\SM;
 
-use Db\SM;
-
-abstract class SMWHEREabstract extends SMabstract
+abstract class SMWhereAbstract extends SMabstract
 {
     protected $WHERE = array();
 
