@@ -1,9 +1,9 @@
 <?php
 namespace SqlConst\SM;
 
-use SqlConst\SM;
+use Db\SM;
 
-abstract class SMWhereAbstract extends SMabstract
+abstract class SMWHEREabstract extends SMabstract
 {
     protected $WHERE = array();
 
